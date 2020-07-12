@@ -9,12 +9,12 @@
                SELECT * FROM [$(TableName)]					
 --------------------------------------------------------------------------------------
 */
-INSERT INTO t_order(f_id, f_price, f_cost) VALUES('A2020026001', 100, 90)
-INSERT INTO t_order(f_id, f_price, f_cost) VALUES('A2020026002', 120, 100)
-INSERT INTO t_order(f_id, f_price, f_cost) VALUES('A2020026003', 150, 110)
+INSERT INTO t_order(f_id, f_productId, f_price, f_cost) VALUES('A2020026001', 1, 5999, 2000)
+INSERT INTO t_order(f_id, f_productId, f_price, f_cost) VALUES('A2020026002', 2, 8999, 3000)
 GO
 
 INSERT INTO t_shippingOrder(f_orderId, f_orderStatus) VALUES('A2020026001', 1);
+INSERT INTO t_shippingOrder(f_orderId, f_orderStatus) VALUES('A2020026002', 1);
 GO
 
 INSERT INTO t_product(f_name, f_price, f_cost) VALUES(N'小綠吸塵器', 5999, 2000);

@@ -1,6 +1,7 @@
 ﻿CREATE TABLE [dbo].[t_order]
 (
 	[f_id]				VARCHAR(20)			NOT NULL,
+	[f_productId]		INT					NOT NULL,
 	[f_price]			INT					NOT NULL,
 	[f_cost]			INT					NOT NULL,
 	[f_createDateTime]	DATETIME			NOT NULL	default(GetDate())

@@ -9,3 +9,5 @@ obj
 *.user
 TestResults
 *.nupkg
+*.dbmdl
+*.jfm
