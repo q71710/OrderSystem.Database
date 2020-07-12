@@ -16,3 +16,7 @@ GO
 
 INSERT INTO t_shippingOrder(f_orderId, f_orderStatus) VALUES('A2020026001', 1);
 GO
+
+INSERT INTO t_product(f_name, f_price, f_cost) VALUES(N'小綠吸塵器', 5999, 2000);
+INSERT INTO t_product(f_name, f_price, f_cost) VALUES(N'小藍吸塵器', 8999, 3000);
+GO

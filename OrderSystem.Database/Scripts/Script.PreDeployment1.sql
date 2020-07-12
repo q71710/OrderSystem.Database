@@ -11,3 +11,4 @@
 */
 IF EXISTS(SELECT 1 FROM sys.tables WHERE name = 't_order') TRUNCATE TABLE t_order
 IF EXISTS(SELECT 1 FROM sys.tables WHERE name = 't_shippingOrder') TRUNCATE TABLE t_shippingOrder
+IF EXISTS(SELECT 1 FROM sys.tables WHERE name = 't_product') TRUNCATE TABLE t_product

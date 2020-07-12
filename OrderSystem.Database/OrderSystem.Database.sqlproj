@@ -64,6 +64,7 @@
   <ItemGroup>
     <Build Include="dbo\table\t_order.sql" />
     <Build Include="dbo\table\t_shippingOrder.sql" />
+    <Build Include="dbo\table\t_product.sql" />
   </ItemGroup>
   <ItemGroup>
     <None Include="OrderSystem.Database.publish.xml" />
